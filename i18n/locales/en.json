@@ -1,0 +1,204 @@
+{
+  "header": {
+    "title": "SkillMint",
+    "tokens": "Tokens",
+    "level": "Level",
+    "streak_title": "{count}-day streak"
+  },
+  "footer": {
+    "copyright": "© {year} SkillMint. Turn learning into earning."
+  },
+  "languageSwitcher": {
+    "label": "Change Language"
+  },
+  "nav": {
+    "home": "Home",
+    "library": "Skill Library",
+    "skills": "Skills",
+    "career": "Career Paths",
+    "redeem": "Redeem",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Welcome to SkillMint",
+    "subtitle": "Enter a username to begin your learning journey.",
+    "placeholder": "Enter your username",
+    "button": "Start Earning",
+    "error": "Please enter a valid username."
+  },
+  "home": {
+    "title": "Welcome Back, {name}!",
+    "subtitle": "Here's what's new for you today. Let's get learning!",
+    "dailyQuest": "Daily Quest",
+    "recommended": "Recommended For You",
+    "recommendedCareer": "Recommended Career Path",
+    "fromSkill": "From skill: {skill}",
+    "generateTitle": "Create Your Own Skill",
+    "generateSubtitle": "Can't find what you're looking for? Tell our AI what you want to learn!",
+    "generatePlaceholder": "e.g., 'The Basics of Chess', 'Creative Writing'",
+    "generateButton": "Generate Skill",
+    "generating": "Generating...",
+    "viewLibrary": "View Full Skill Library",
+    "startPath": "Start Path"
+  },
+  "skillLibrary": {
+    "title": "Skill Library",
+    "subtitle": "Browse all available skills or ask the AI to create a new one on the Home page."
+  },
+  "careerPaths": {
+    "title": "Career Paths",
+    "subtitle": "Follow a structured path to achieve your career goals. Complete all skill tracks to master a discipline."
+  },
+  "skillSelector": {
+    "challenges": "{count} Challenges"
+  },
+  "skillCard": {
+    "pro": "PRO",
+    "unlock": "Unlock for {cost}",
+    "insufficient": "Not enough tokens"
+  },
+  "dashboard": {
+    "back": "Back to Skills",
+    "backToLibrary": "Back to Library",
+    "challengesTitle": "Challenges",
+    "allCompletedTitle": "Track Completed!",
+    "allCompletedSubtitle": "Amazing work! You've mastered all the challenges in this track. View your certificate or choose another skill.",
+    "exploreSkills": "Explore Other Skills",
+    "tabs": {
+        "challenges": "Challenges",
+        "leaderboard": "Leaderboard",
+        "coach": "AI Coach",
+        "certificate": "Certificate"
+    }
+  },
+  "challengeCard": {
+    "tokens": "{reward} Tokens",
+    "attempt": "Attempt",
+    "completed": "Completed"
+  },
+  "challengeModal": {
+    "solutionLabel": "Your Solution",
+    "solutionPlaceholder": "Enter your code, text, or solution here...",
+    "cancel": "Cancel",
+    "close": "Close",
+    "submit": "Submit for Evaluation",
+    "submitAnswer": "Submit Answer",
+    "submitting": "Evaluating...",
+    "passedTitle": "Challenge Passed! +{reward} Tokens",
+    "failedTitle": "Try Again!",
+    "quiz": {
+        "correct": "That's correct! Well done.",
+        "incorrect": "Not quite. Give it another thought and try again!"
+    }
+  },
+  "aiCoach": {
+    "title": "AI Skill Coach",
+    "initialMessage": "Hello! I'm your AI coach for {skillTitle}. How can I help you get started?",
+    "inputPlaceholder": "Ask your coach anything...",
+    "send": "Send"
+  },
+  "leaderboard": {
+    "title": "Leaderboard"
+  },
+  "redeem": {
+    "title": "Redeem Your Tokens",
+    "subtitle": "Exchange your tokens for exciting rewards. Keep learning to unlock more!",
+    "your_tokens": "Your Tokens",
+    "redeem_button": "Redeem",
+    "insufficient": "Insufficient Tokens"
+  },
+  "profile": {
+    "title": "Your Profile",
+    "total_tokens": "Total Tokens Earned",
+    "achievements": "Achievements",
+    "completed_track": "Completed '{trackTitle}' Track",
+    "level_progress": "Level Progress",
+    "streak": "Daily Streak",
+    "unlocked_pro": "Unlocked Pro Tracks"
+  },
+  "certificate": {
+    "title": "Certificate of Completion",
+    "presented_to": "This certificate is proudly presented to",
+    "completion_text": "for successfully completing the skill track",
+    "issued_on": "Issued on",
+    "by": "by SkillMint"
+  },
+  "locked": {
+    "title": "Feature Locked",
+    "subtitle": "Reach Level {level} to unlock this feature. Keep completing challenges!"
+  },
+  "toasts": {
+    "challenge_complete": "Challenge Complete! +{reward} Tokens & XP!",
+    "level_up": "Level Up! You've reached Level {level}!",
+    "reward_redeemed": "Success! Redeemed {rewardName}.",
+    "skill_generated": "New skill '{title}' has been added to your library!",
+    "pro_unlocked": "Unlocked Pro Skill: {title}!",
+    "streak_increment": "Streak extended to {count} days! Keep it up!",
+    "streak_reset": "Streak reset. Start a new one today!"
+  },
+  "skills": {
+    "frontend": {
+      "title": "Advanced Frontend Architecture",
+      "description": "Dive deep into scalable architectures, state management, and performance for complex web applications."
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "description": "Master the art of promoting products and brands in the digital world."
+    },
+    "design": {
+      "title": "Graphic Design Principles",
+      "description": "Understand the fundamentals of color theory, typography, and composition."
+    },
+    "language": {
+      "title": "Spanish for Beginners",
+      "description": "Learn basic Spanish phrases for everyday conversation."
+    }
+  },
+  "challenges": {
+    "fe-1": {
+      "title": "Create a Responsive Button",
+      "description": "Write the HTML and Tailwind CSS for a button that changes color on hover and is fully responsive."
+    },
+    "fe-2": {
+      "title": "Simple Counter with React",
+      "description": "Write a React functional component for a counter with two buttons: one to increment and one to decrement the count."
+    },
+    "fe-3": {
+      "title": "Fetch Data from an API",
+      "description": "Write a React component that fetches a list of users from a public API (e.g., JSONPlaceholder) and displays their names in a list."
+    },
+    "dm-1": {
+      "title": "Write a Compelling Tweet",
+      "description": "Write a tweet (max 280 characters) to promote a new productivity app called \"ZenFlow\". Mention its key benefit."
+    },
+    "dm-2": {
+      "title": "Outline a Blog Post",
+      "description": "Create a simple outline for a blog post titled \"5 Tips for Better Time Management\". Include an introduction, 5 main points, and a conclusion."
+    },
+    "gd-1": {
+      "title": "Describe a Color Palette",
+      "description": "Choose a brand (e.g., Spotify) and describe its color palette. What emotions do the colors evoke?"
+    },
+    "gd-2": {
+        "title": "Quiz: Purpose of Whitespace",
+        "description": "What is the primary purpose of using whitespace (or negative space) in design?"
+    },
+    "es-1": {
+      "title": "Introduce Yourself",
+      "description": "Write a short introduction in Spanish saying your name and where you are from. (e.g., \"Hola, me llamo Juan y soy de México.\")"
+    }
+  },
+  "careers": {
+      "fullstack-dev": {
+          "title": "Full-Stack Developer",
+          "description": "Master both frontend and backend technologies to build complete web applications from start to finish."
+      }
+  },
+  "rewards": {
+    "voucher-10": "10% Discount Voucher",
+    "voucher-25": "25% Discount Voucher",
+    "crypto-5": "$5 Crypto Payout",
+    "crypto-10": "$10 Crypto Payout"
+  }
+}
